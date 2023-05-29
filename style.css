@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+    background-image: linear-gradient(to bottom ,rgba(33, 157, 206, 0.199) ,rgba(22, 114, 151, 0.63)), url('./bg.jpg');
+}
+.display #screen{
+    width: 100%;
+    height: 4rem;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 5px 10px;
+    color: rgb(101, 16, 150);
+    background-color: rgba(3, 132, 141, 0.808);
+}
+.sci-btns{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci-btns .row button{
+    width: 5.5rem;
+    height: 2rem;
+    margin: 0.1rem 0.01rem;
+    color: beige;
+    font-size: 1rem;
+    box-shadow: 1px 1px 1px #006064;
+}
+.sci-btns .row button:hover{
+    background-image: linear-gradient(to bottom right, #006064, #00838F);
+}
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btns .row button{
+    width: 4.4rem;
+    height: 4rem;
+    margin: 0.1rem 0.01rem;
+    color: beige;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 1px #00838F;
+}
+.btns .row button:hover{
+    background-image: linear-gradient(to bottom right, #006064, #00838F);
+}
